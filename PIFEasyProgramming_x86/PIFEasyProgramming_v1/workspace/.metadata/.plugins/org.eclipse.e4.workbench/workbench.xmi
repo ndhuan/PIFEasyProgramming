@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_6qxCABKaEea0DesVxAR5KQ" elementId="test.rcp.application" contributorURI="platform:/plugin/VisualProgrammingLanguage" selectedElement="_6qxCARKaEea0DesVxAR5KQ" bindingContexts="_6qyQIhKaEea0DesVxAR5KQ">
-  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList/>&#xD;&#xA;&lt;/workbench>"/>
+  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;VisualProgrammingLanguage.editor.BlockEditor&quot; name=&quot;hihi.block&quot; tooltip=&quot;ahihi/hihi.block&quot;>&#xD;&#xA;&lt;persistable path=&quot;/ahihi/hihi.block&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
   <tags>activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
   <tags>ModelMigrationProcessor.001</tags>
   <children xsi:type="basic:TrimmedWindow" xmi:id="_6qxCARKaEea0DesVxAR5KQ" contributorURI="platform:/plugin/VisualProgrammingLanguage" selectedElement="_6qxCAhKaEea0DesVxAR5KQ" label="My Main Window" iconURI="" x="125" y="125" width="800" height="600">
@@ -14,13 +14,13 @@
       <children xsi:type="advanced:Perspective" xmi:id="_6qxCAxKaEea0DesVxAR5KQ" elementId="test.rcp.perspective" contributorURI="platform:/plugin/VisualProgrammingLanguage" selectedElement="_6qxCBBKaEea0DesVxAR5KQ" label="My Perspective" iconURI="">
         <tags>Perspective</tags>
         <tags>categoryTag:General</tags>
-        <children xsi:type="basic:PartSashContainer" xmi:id="_6qxCBBKaEea0DesVxAR5KQ" contributorURI="platform:/plugin/VisualProgrammingLanguage" selectedElement="_6qxCBRKaEea0DesVxAR5KQ" horizontal="true">
+        <children xsi:type="basic:PartSashContainer" xmi:id="_6qxCBBKaEea0DesVxAR5KQ" contributorURI="platform:/plugin/VisualProgrammingLanguage" selectedElement="_6qxpERKaEea0DesVxAR5KQ" horizontal="true">
           <children xsi:type="basic:PartStack" xmi:id="_6qxCBRKaEea0DesVxAR5KQ" elementId="PartStack@da6cbc" contributorURI="platform:/plugin/VisualProgrammingLanguage" containerData="3400" selectedElement="_6qxpEBKaEea0DesVxAR5KQ">
             <tags>newtablook</tags>
             <tags>org.eclipse.e4.primaryNavigationStack</tags>
             <children xsi:type="advanced:Placeholder" xmi:id="_6qxpEBKaEea0DesVxAR5KQ" elementId="org.eclipse.ui.navigator.ProjectExplorer" contributorURI="platform:/plugin/VisualProgrammingLanguage" ref="_6qxpGhKaEea0DesVxAR5KQ"/>
           </children>
-          <children xsi:type="basic:PartSashContainer" xmi:id="_6qxpERKaEea0DesVxAR5KQ" elementId="" contributorURI="platform:/plugin/VisualProgrammingLanguage" containerData="10000">
+          <children xsi:type="basic:PartSashContainer" xmi:id="_6qxpERKaEea0DesVxAR5KQ" elementId="" contributorURI="platform:/plugin/VisualProgrammingLanguage" containerData="10000" selectedElement="_6qxpEhKaEea0DesVxAR5KQ">
             <children xsi:type="advanced:Placeholder" xmi:id="_6qxpEhKaEea0DesVxAR5KQ" elementId="org.eclipse.ui.editorss" contributorURI="platform:/plugin/VisualProgrammingLanguage" containerData="20000" ref="_6qxpFRKaEea0DesVxAR5KQ"/>
             <children xsi:type="basic:PartStack" xmi:id="_6qxpExKaEea0DesVxAR5KQ" elementId="org.eclipse.ui.views.PropertySheetMStack" contributorURI="platform:/plugin/VisualProgrammingLanguage" containerData="3400" selectedElement="_6qxpFBKaEea0DesVxAR5KQ">
               <tags>newtablook</tags>
@@ -31,11 +31,18 @@
         </children>
       </children>
     </children>
-    <sharedElements xsi:type="advanced:Area" xmi:id="_6qxpFRKaEea0DesVxAR5KQ" elementId="org.eclipse.ui.editorss" contributorURI="platform:/plugin/VisualProgrammingLanguage">
-      <children xsi:type="basic:PartStack" xmi:id="_6qxpFhKaEea0DesVxAR5KQ" elementId="org.eclipse.e4.primaryDataStack" contributorURI="platform:/plugin/VisualProgrammingLanguage">
+    <sharedElements xsi:type="advanced:Area" xmi:id="_6qxpFRKaEea0DesVxAR5KQ" elementId="org.eclipse.ui.editorss" contributorURI="platform:/plugin/VisualProgrammingLanguage" selectedElement="_6qxpFhKaEea0DesVxAR5KQ">
+      <children xsi:type="basic:PartStack" xmi:id="_6qxpFhKaEea0DesVxAR5KQ" elementId="org.eclipse.e4.primaryDataStack" contributorURI="platform:/plugin/VisualProgrammingLanguage" selectedElement="_ZMAJMBUsEeaXkZ9U0yo9Dg">
         <tags>newtablook</tags>
         <tags>org.eclipse.e4.primaryDataStack</tags>
         <tags>EditorStack</tags>
+        <children xsi:type="basic:Part" xmi:id="_ZMAJMBUsEeaXkZ9U0yo9Dg" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="hihi.block" tooltip="ahihi/hihi.block" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;VisualProgrammingLanguage.editor.BlockEditor&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/ahihi/hihi.block&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>VisualProgrammingLanguage.editor.BlockEditor</tags>
+          <tags>removeOnHide</tags>
+          <tags>activeOnClose</tags>
+        </children>
       </children>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_6qxpFxKaEea0DesVxAR5KQ" elementId="org.eclipse.ui.views.PropertySheet" contributorURI="platform:/plugin/VisualProgrammingLanguage" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Properties" iconURI="platform:/plugin/org.eclipse.ui.views//icons/full/eview16/prop_ps.gif" closeable="true">
@@ -52,7 +59,6 @@
       <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view CommonNavigator.LINKING_ENABLED=&quot;0&quot; org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets=&quot;0&quot;/>"/>
       <tags>View</tags>
       <tags>categoryTag:General</tags>
-      <tags>activeOnClose</tags>
       <menus xmi:id="_6qxpGxKaEea0DesVxAR5KQ" elementId="org.eclipse.ui.navigator.ProjectExplorer" contributorURI="platform:/plugin/VisualProgrammingLanguage">
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
@@ -76,6 +82,10 @@
       </children>
       <children xsi:type="menu:ToolControl" xmi:id="_7duwARKaEea0DesVxAR5KQ" elementId="PerspectiveSwitcher" toBeRendered="false" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.e4.ui.workbench.addons.perspectiveswitcher.PerspectiveSwitcher">
         <tags>Draggable</tags>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_ZSzUwBUsEeaXkZ9U0yo9Dg" elementId="group.editor" toBeRendered="false">
+        <tags>toolbarSeparator</tags>
+        <children xsi:type="menu:ToolBarSeparator" xmi:id="_ZSz70BUsEeaXkZ9U0yo9Dg" elementId="group.editor" toBeRendered="false"/>
       </children>
     </trimBars>
     <trimBars xmi:id="_6qxpHxKaEea0DesVxAR5KQ" elementId="org.eclipse.ui.trim.status" contributorURI="platform:/plugin/VisualProgrammingLanguage" side="Bottom">
